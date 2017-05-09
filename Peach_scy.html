@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>上传页</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<link rel="stylesheet" href="css/taohuajie/Peach_base.css">
+<link rel="stylesheet" href="css/taohuajie/Peach_pagestyle.css">
+</head>
+<body class="bodybg">
+  <div class="trapper">
+    <div class="peach_title">
+       <img src="images/taohuajie/Peach_totaltitle.png" alt="" class="peach_titleimg">
+    </div>
+    <div class="peach_scymid">
+        <p class="qwer">请选择想要上传的照片！</p>
+        <div class="dsbzx" style="width:100%;height:100%;z-index:1000;text-align:center;">
+            <img  id="showImg" />
+        </div>
+    </div>
+    <div class="peach_scy_yq">
+        <p>1、原创彩色照片，数码与手机作品均可；</p>
+        <p>2、照片包括但不限于林芝桃花与人物人景结合照片；</p>
+        <p>3、谢绝提供电脑创意和改变原始影像的作品；</p>
+        <p>4、每人仅限上传一张照片，建议上传竖版照片；</p>
+        <p>5、上传作品场景真实，侵权自负法律责任。</p>
+    </div>
+    <div id="ossfile">你的浏览器不支持flash,Silverlight或者HTML5！</div>
+    <div class="peach_scy_btn" id="container">
+       <a id="selectfiles" class="bg008" href="javascript:void(0);">选择文件</a>
+       <a id="postfiles" class="bg008" href="javascript:void(0);">开始上传</a>
+    </div>
+    <input style="display:none;" type="text" id='dirname' placeholder="如果不填，默认是上传到根目录" size=50>
+    <pre id="console"></pre>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/lib/plupload-2.1.2/js/plupload.full.min.js"></script>
+<script type="text/javascript" src="js/upload.js"></script>
+</body>
+</html>

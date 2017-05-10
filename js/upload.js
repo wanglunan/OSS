@@ -26,7 +26,7 @@ function send_request()
   
     if (xmlhttp!=null)
     {   
-        serverUrl = 'http://xz.deep5.cn/index.php?c=peach&m=get_secret'
+        serverUrl = 'url'
         xmlhttp.open( "GET", serverUrl, false );
         xmlhttp.send( null );
         return xmlhttp.responseText
